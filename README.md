@@ -8,4 +8,4 @@ In ```tests```, there are two main groups of programs. The first group pertains 
 
 The second group pertains to the control of influence in a network. Currently, this composes of only ImpactPQ.java, which evaluates the impact of individual relationships to the overall diffusion process. Programs implementing ImpactPQ.java to test its effectiveness will be uploaded soon. 
 
-The theory behind this program is outlined in theory.pdf. 
+The theory behind this program is outlined in the PDF, which is a finalized part of my paper. The paper will be uploaded here once it is complete. 
