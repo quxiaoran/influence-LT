@@ -8,4 +8,4 @@ In ```tests```, there are two main groups of programs. The first group pertains 
 
 The second group pertains to the control of influence in a network. Currently, this composes of ImpactPQ.java, which evaluates the impact of individual relationships to the overall diffusion process. ImpactHeuristic.java combines ImpactPQ.java with many other standard heuristics so that comparisons in effective influence change and runtime can be made. ImpactHeuristic.java uses Dijkstra.java to find distance centrality, a heuristic that is used. 
 
-Testing.java tests both groups of programs. 
+Testing.java tests both groups of programs. When testing make sure to replace the ```/Users/stevenqu/Documents/Network Project/tests/``` with whatever directory your files are in. 
