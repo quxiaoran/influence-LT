@@ -6,6 +6,6 @@ The organization of the code is as follows: there are two packages, ```networks`
 
 In ```tests```, there are two main groups of programs. The first group pertains to the testing of the predictive model. GenerateNetwork.java uses ScaleFree.java to make scale-free networks with weights, which are recorded in weights.txt. It also randomly generates probabilities that each node will be a seed node (which begin the diffusion process); these probabilities are recorded in initialP.txt. GeneratePQnew.java uses the two text files to predict the diffusion process. Predictive.java then simulates the diffusion process many times and compares the results to that outputted by GeneratePQnew.java. 
 
-The second group pertains to the control of influence in a network. Currently, this composes of only ImpactPQ.java, which evaluates the impact of individual relationships to the overall diffusion process. Programs implementing ImpactPQ.java to test its effectiveness will be uploaded soon. 
+The second group pertains to the control of influence in a network. Currently, this composes of ImpactPQ.java, which evaluates the impact of individual relationships to the overall diffusion process. ImpactHeuristic.java combines ImpactPQ.java with many other standard heuristics so that comparisons in effective influence change and runtime can be made. ImpactHeuristic.java uses Dijkstra.java to find distance centrality, a heuristic that is used. 
 
-The theory behind this program is outlined in the PDF, which is a finalized part of my paper. The paper will be uploaded here once it is complete. 
+Testing.java tests both groups of programs. 
